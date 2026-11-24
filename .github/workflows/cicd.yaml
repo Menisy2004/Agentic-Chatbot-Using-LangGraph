@@ -146,7 +146,6 @@ jobs:
 
 
       - name: Pull latest Docker image
-        env:
         
         run: |
           docker pull "${IMAGE_PATH}:main"
